@@ -1,0 +1,68 @@
+.root{
+    -fx-background-image: url("GameOverUser.gif");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 700 700;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-background-color: #000000;
+}
+#GameOptions{
+    -fx-font-family: "Impact";
+    -fx-font-size: 20 pt;
+    -fx-background-color: #d40b0b;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 10;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 200px;
+}
+
+#LabelBoard{
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+#NormalState{
+    -fx-border-color: #000000;
+    -fx-background-color: #FFFFFF;
+}
+#GreenState{
+    -fx-border-color: #000000;
+    -fx-background-color: #1eb25c;
+}
+#RedState{
+    -fx-border-color: #000000;
+    -fx-background-color: #ff0000;
+    -fx-graphic: url("explosion.gif");
+}
+#BlackState{
+    -fx-border-color: #000000;
+    -fx-background-color: #000000;
+}
+
+
+.menu-bar{
+  -fx-background-color: black;
+  -fx-border-width: 1
+
+}
+
+.menu-bar .label {
+    -fx-font-size: 22 pt;
+    -fx-font-family: "Impact";
+    -fx-text-fill: #FFFFFF;
+
+}
+
+
+.menu:hover {
+    -fx-background-color: #49b6f9;
+}
+
+.menu-item .label{
+     -fx-font-size: 22 pt;
+      -fx-label-line-length: 8;
+      -fx-text-fill: #000000;
+
+}

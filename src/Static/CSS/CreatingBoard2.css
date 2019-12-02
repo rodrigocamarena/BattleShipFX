@@ -1,0 +1,80 @@
+.root{
+    -fx-background-image: url("Images/fondoColocarBarcos.png");
+    -fx-background-size: 700 700;
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+    -fx-background-color: #FFFFFF;
+}
+
+#GameOptions{
+    -fx-font-family: "Impact";
+    -fx-font-size: 20 pt;
+    -fx-background-color: #000000;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 10;
+    -fx-pref-height: 40px;
+    -fx-pref-width: 100px;
+}
+
+#LabelBoard{
+    -fx-font-size: 32px;
+    -fx-font-family: "Times New Roman";
+    -fx-text-fill: #FFFFFF;
+}
+
+#NormalState{
+    -fx-text-fill: #000000;
+    -fx-border-color: #000000;
+    -fx-background-color: #FFFFFFE6;
+}
+#RedState{
+    -fx-border-color: #000000;
+    -fx-background-color: #ff0000;
+}
+#BlackState{
+    -fx-border-color: #000000;
+    -fx-background-color: #000000;
+}
+#Selected{
+    -fx-background-color: #0000FF;
+    -fx-border-color: #000000;
+}
+
+#Player2{
+    -fx-text-fill: #000000;
+    -fx-border-color: #000000;
+    -fx-background-color: #FFFFFFE6;
+}
+
+#Player1{
+    -fx-text-fill: #000000;
+    -fx-border-color: #000000;
+    -fx-background-color: #FFFFFFE6;
+}
+
+
+
+.menu-bar{
+  -fx-background-color: black;
+  -fx-border-width: 1
+
+}
+
+.menu-bar .label {
+    -fx-font-size: 22 pt;
+    -fx-font-family: "Impact";
+    -fx-text-fill: #FFFFFF;
+
+}
+
+
+.menu:hover {
+    -fx-background-color: #49b6f9;
+}
+
+.menu-item .label{
+     -fx-font-size: 22 pt;
+      -fx-label-line-length: 8;
+      -fx-text-fill: #000000;
+
+}

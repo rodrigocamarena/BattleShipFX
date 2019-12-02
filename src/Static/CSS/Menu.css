@@ -1,0 +1,43 @@
+.root{
+    -fx-background-image: url("Images/Background.gif");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 700 700;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-background-color: #383838;
+}
+.button{
+    -fx-font-family: "Impact";
+    -fx-font-size: 20 pt;
+    -fx-background-color: #000000;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 10;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 180px;
+
+}
+
+.menu-bar{
+  -fx-background-color: black;
+  -fx-border-width: 1
+
+}
+
+.menu-bar .label {
+    -fx-font-size: 22 pt;
+    -fx-font-family: "Impact";
+    -fx-text-fill: #FFFFFF;
+
+}
+
+
+.menu:hover {
+    -fx-background-color: #49b6f9;
+}
+
+.menu-item .label{
+     -fx-font-size: 22 pt;
+      -fx-label-line-length: 8;
+      -fx-text-fill: #000000;
+
+}

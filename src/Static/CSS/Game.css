@@ -1,0 +1,70 @@
+.root{
+     -fx-background-image: url("Images/primer-fondo.png");
+     -fx-background-size: 1000 710;
+     -fx-background-repeat: stretch;
+     -fx-background-position: center center;
+     -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+     -fx-background-color: #FFFFFF;
+}
+
+#LabelBoard{
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.menu-bar{
+  -fx-background-color: black;
+  -fx-border-width: 1
+
+}
+
+.menu-bar .label {
+    -fx-font-size: 22 pt;
+    -fx-font-family: "Impact";
+    -fx-text-fill: #FFFFFF;
+
+}
+
+
+.menu:hover {
+    -fx-background-color: #49b6f9;
+}
+
+.menu-item .label{
+     -fx-font-size: 22 pt;
+      -fx-label-line-length: 8;
+      -fx-text-fill: #000000;
+
+}
+#NormalState{
+    -fx-border-color: #000000;
+    -fx-background-color: #FFFFFF;
+}
+#BoardButtons{
+        -fx-border-color: #000000;
+        -fx-background-color: #FFFFFF;
+}
+#GreenState{
+    -fx-border-color: #000000;
+    -fx-background-color: #1eb25c;
+}
+
+#MachineSelected{
+    -fx-border-color: #000000;
+    -fx-background-color: #FFFFFF;
+}
+#RedState{
+    -fx-border-color: #000000;
+    -fx-background-color: #ff0000;
+}
+#BlackState{
+    -fx-border-color: #000000;
+    -fx-background-color: #000000;
+}
+#Selected{
+    -fx-background-color: #1eb25c;
+    -fx-border-color: #000000;
+}
+

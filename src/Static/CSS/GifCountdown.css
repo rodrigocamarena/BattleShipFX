@@ -1,0 +1,18 @@
+.root{
+         /**-fx-background-image: url("Images/Countdown3.gif");**/
+         -fx-background-size: 800 600;
+         -fx-background-repeat: stretch;
+         -fx-background-position: center center;
+         -fx-background-color: #000000;
+}
+
+.button{
+    -fx-font-family: "Impact";
+    -fx-font-size: 20 pt;
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 10;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 180px;
+
+}
